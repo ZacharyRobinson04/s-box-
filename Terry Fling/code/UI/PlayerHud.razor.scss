@@ -1,0 +1,28 @@
+PlayerHud
+{
+	position: absolute;
+	top: 8;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #00000000;
+	font-family:'Franklin Gothic Medium';
+	justify-content: center;
+	align-items: flex-start;
+	font-weight: bold;
+	border-radius: 20px;
+	font-size: 64;
+	text-stroke: 2px rgb(0, 0, 0);
+
+	.leftside {
+		color:blue;
+		align-items: flex-start;
+		right:30;
+	}
+	.rightside {
+		color:red;
+		align-items: flex-end;
+		left:30;
+	}
+
+}

@@ -1,0 +1,49 @@
+Lobby
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	justify-content: center;
+	align-items: center;
+	pointer-events: all;
+	font-weight: bold;
+	border-radius: 20px;
+	flex-direction: row;
+	background-color: #00000015;
+
+
+	 .title
+	{
+		
+		font-size: 128px;
+		font-family: Poppins;
+		color: #fff;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.options
+	{
+		
+		font-size: 32px;
+		font-family: Poppins;
+		color: #fff;
+		flex-direction: column;
+
+	}
+	.lobbies
+	{
+		font-size: 64px;
+		color: #fff;
+		flex-direction: column;
+
+	}
+	.button-list
+	{
+		margin-top: 64px;
+		flex-direction: column;
+		gap: 16px;
+	}
+
+}

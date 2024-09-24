@@ -1,0 +1,97 @@
+{
+  "__guid": "0346507c-ea7a-4bba-9f09-f9f560b87124",
+  "GameObjects": [
+    {
+      "__guid": "2415a00a-87de-4266-98ae-72b3b7e84ada",
+      "Name": "Camera",
+      "Position": "375.7191,2834.272,311.6143",
+      "Rotation": "-0.1091663,0.02836707,0.9616812,0.2498947",
+      "Tags": "maincamera",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "Components": [
+        {
+          "__type": "CameraComponent",
+          "__guid": "e110db7f-2695-4f2b-a210-ec9a7aa48a52",
+          "BackgroundColor": "0.33333,0.46275,0.52157,1",
+          "ClearFlags": "All",
+          "FieldOfView": 60,
+          "IsMainCamera": true,
+          "Orthographic": false,
+          "OrthographicHeight": 1204,
+          "Priority": 1,
+          "RenderExcludeTags": "",
+          "RenderTags": "",
+          "TargetEye": "None",
+          "Viewport": "0,0,1,1",
+          "ZFar": 10000,
+          "ZNear": 10
+        }
+      ]
+    },
+    {
+      "__guid": "4e46299d-9f09-4035-8ea6-ff682f7e4b97",
+      "Name": "Screen",
+      "Position": "189.295,186.6701,-138.9819",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "Components": [
+        {
+          "__type": "ScreenPanel",
+          "__guid": "338100be-dc7e-4160-b79e-7a7c9a367b6f",
+          "AutoScreenScale": true,
+          "Opacity": 1,
+          "Scale": 1,
+          "ZIndex": 100
+        },
+        {
+          "__type": "Lobby",
+          "__guid": "2ac69174-1224-4549-8552-234f51c488c5"
+        }
+      ]
+    },
+    {
+      "__guid": "c719a83b-ab75-4d9e-a4f1-359294980c2e",
+      "Name": "Object",
+      "Position": "436.4525,149.7725,-131.4002",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "Components": [
+        {
+          "__type": "MapInstance",
+          "__guid": "4eaba155-8b3c-4d00-8d4e-fafbd180415f",
+          "MapName": "jalabeno.arena",
+          "UseMapFromLaunch": false
+        }
+      ],
+      "Children": []
+    }
+  ],
+  "SceneProperties": {
+    "FixedUpdateFrequency": 50,
+    "Lerping": true,
+    "MaxFixedUpdates": 5,
+    "NetworkFrequency": 30,
+    "ThreadedAnimation": true,
+    "TimeScale": 1,
+    "UseFixedUpdate": true,
+    "NavMesh": {
+      "Enabled": false,
+      "IncludeStaticBodies": true,
+      "IncludeKeyframedBodies": true,
+      "EditorAutoUpdate": true,
+      "AgentHeight": 64,
+      "AgentRadius": 16,
+      "AgentStepSize": 18,
+      "AgentMaxSlope": 40,
+      "ExcludedBodies": "",
+      "IncludedBodies": ""
+    }
+  },
+  "Title": "lobby",
+  "Description": "",
+  "LastSaved": "2024-03-15T23:54:12.83427-05:00",
+  "ResourceVersion": 1,
+  "__version": 1,
+  "__references": []
+}

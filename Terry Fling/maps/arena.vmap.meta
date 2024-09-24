@@ -1,0 +1,41 @@
+{
+  "publish": {
+    "Allowed": true,
+    "Enabled": true,
+    "ProjectConfig": {
+      "Title": "arena",
+      "Type": "map",
+      "Org": "jalabeno",
+      "Ident": "arena",
+      "Tags": null,
+      "Schema": 0,
+      "HasAssets": false,
+      "AssetsPath": null,
+      "Resources": null,
+      "HasCode": false,
+      "CodePath": null,
+      "PackageReferences": [],
+      "EditorReferences": [
+        "semxy.bluecloudskybox#24832",
+        "ele.dev_measure_green#26650",
+        "facepunch.glass_a#19946",
+        "facepunch.concrete_trim_02#43472",
+        "creation.plastic013b_2k#36429",
+        "eurorp.steel_02#15564",
+        "eurorp.aluminium_03#15539",
+        "creation.plastic008_2k#23500",
+        "eurorp.gold_02#15555",
+        "chunky.grass_001#32499",
+        "facepunch.tree_oak_small_a#33693",
+        "sundayservice.concrete_damaged_03#27361",
+        "fpopium.concrete_damaged_a#48377"
+      ],
+      "Metadata": {
+        "SingleAssetSource": "maps/arena.vmap",
+        "GameSupport": [
+          "jalabeno.fling"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@using Sandbox;
+@inherits PanelComponent
+
+{
+	<root>
+		<div class="card">
+			<div class="name">@Network.OwnerConnection.DisplayName</div>
+		</div>
+	</root>
+}
+
+@code
+{
+	
+	protected override int BuildHash() => System.HashCode.Combine( Network.OwnerConnection);
+}

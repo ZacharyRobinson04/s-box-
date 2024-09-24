@@ -1,0 +1,31 @@
+NameTag
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	white-space: nowrap;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+
+	.card
+	{
+		flex-direction: row;
+		background-color: #0004;
+		border-radius: 5px;
+		padding: 10px 20px;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		font-size: 16px;
+		.name
+		{
+			font-family: Poppins;
+			color: #fff;
+		}
+
+		
+	}
+}
